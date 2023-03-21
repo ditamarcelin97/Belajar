@@ -1,0 +1,167 @@
+:root {
+    --primary: #274C5B;
+    --secondary: #7EB693;
+    --yellow: #EFD372;
+    --grey: #D4D4D4;
+    --white: #F9F8F8;
+    --greenlight: #EFF6F1;
+    --greydark: #525C60;
+    --coksu: #F1EDEA;
+    --roboto: 'Roboto', sans-serif;
+    --yellowtail: 'Yellowtail', cursive;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 5000px;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body,
+.default-text-style {
+    font-family: var(--roboto);
+    color: var(--primary);
+    font-style: normal;
+}
+
+.yellowtail-text-style {
+    font-family: var(--yellowtail);
+    color: var(--primary);
+    font-style: normal;
+}
+
+
+h1,
+.h1 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+}
+
+h2,
+.h2 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+}
+
+h3,
+.h3 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+h4,
+.h4 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+h5,
+.h5 {
+
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+h6,
+.h6 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.menu{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+p,
+.p {
+    color: var(--greydark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: var(--greydark);
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+ol,
+ul {
+    padding-left: 16px;
+}
+
+ol li,
+ul li {
+    color: var(--greydark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+}
+
+blockquote {
+    background-color: var(--coksu);
+    margin: 0;
+    padding: 69px 59px;
+    font-weight: 700;
+    border-radius: 30px;
+    line-height: 165.4%;
+}
+
+.btn img{
+    margin-left: 10px;
+}
+
+.btn {
+    border-radius: 16px;
+    padding: 28px 39px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn.btn--primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn.btn--yellow {
+    background-color: var(--yellow);
+    color: var(--primry);
+}
+
+.btn.btn--link {
+    background-color: white;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
